@@ -81,7 +81,7 @@ int main()
 			}
 		}
 		sort(newBeginPixels.begin(), newBeginPixels.end(), Cmp);
-
+		//输出结果
 		cout << width << endl;
 		Pixel curpix = newBeginPixels[0];
 		for (int i = 0; i < newBeginPixels.size(); i++) {
